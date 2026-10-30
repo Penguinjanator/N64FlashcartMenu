@@ -4,12 +4,13 @@
 - For the 64Drive, use the `menu.bin` file in the root of your SD card.
 - For the ares emulator, use the `N64FlashcartMenu.n64` file.
 
-## Release Notes 202x-vNext
+## Release Notes 2026-10-30 - Tagged 0.3.6
 
 - **New Features**
 	- ~~Browser now allows hiding files and folders with hidden attributes set (thanks [Xeroxxx](https://github.com/Xeroxxx)).~~ Awaiting performance enhancement.
 	- Add low voltage warning on startup for flashcarts that support it.
 	- Add metadata for the menu ROM.
+	- Add embedded homebrew ROM metadata support.
 
 - **Bug Fixes**
 	- Fix Datel Code Types:
