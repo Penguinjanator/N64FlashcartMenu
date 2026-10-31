@@ -768,7 +768,7 @@ static void draw (menu_t *menu, surface_t *d) {
             
             format_rom_save_type(rom_info_get_save_type(&menu->load.rom_info), menu->load.rom_info.features.controller_pak),
             format_rom_tv_type(rom_info_get_tv_type(&menu->load.rom_info), menu->load.rom_info.features.region_free),
-            format_rom_expansion_pak_infoformat_rom_expansion_pak_info(menu->load.rom_info.features.expansion_pak),
+            format_rom_expansion_pak_info(menu->load.rom_info.features.expansion_pak),
             format_rom_pak_feature_info(menu->load.rom_info.features.rumble_pak),
             format_rom_pak_feature_info(menu->load.rom_info.features.transfer_pak),
             format_boolean_type(menu->load.rom_info.settings.cheats_enabled),
